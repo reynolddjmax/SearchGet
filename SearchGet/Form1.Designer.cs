@@ -46,7 +46,7 @@
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.button3 = new System.Windows.Forms.Button();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -227,22 +227,21 @@
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // button4
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(667, 488);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(78, 16);
-            this.checkBox6.TabIndex = 13;
-            this.checkBox6.Text = "checkBox6";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.button4.Location = new System.Drawing.Point(653, 488);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 13;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(932, 513);
-            this.Controls.Add(this.checkBox6);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.checkBox5);
             this.Controls.Add(this.richTextBox2);
@@ -283,7 +282,7 @@
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.CheckBox checkBox5;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.Button button4;
     }
 }
 
